@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire d'Inscription</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Ahmad/Css Ahmad/styleformulaire.css">
+</head>
+<body>
+    <header>
+        <div class="head">
+            <a href="#" class="logo">Moroccan Delights</a>
+            <nav>
+                <ul class="navbar">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="form-container">
+            <form action="#" method="post">
+                <h1>Inscription</h1>
+                <div class="input-group">
+                    <label for="nom-complet">Nom Complet</label>
+                    <input type="text" id="nom-complet" name="nom-complet" required>
+                </div>
+                <div class="input-group">
+                    <label for="email">Adresse Mail</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="input-group">
+                    <label for="statut">Statut Matrimonial</label>
+                    <select id="statut" name="statut" required>
+                        <option value="celib">Célibataire</option>
+                        <option value="marié">Marié(e)</option>
+                        <option value="divorcé">Divorcé(e)</option>
+                        <option value="veuf(ve)">Veuf/Veuve</option>
+                    </select>
+                </div>
+                <div class="input-group">
+                    <label for="adresse">Adresse Postale</label>
+                    <input type="text" id="adresse" name="adresse" required>
+                </div>
+                <button type="submit">S'inscrire</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#" class="logo">
+                        <img src="images/logo.png" alt="Moroccan Delights Logo">
+                        Moroccan Delights
+                    </a>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Twitter</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Moroccan Delights. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,224 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    background: #222;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    position: relative;
+    flex-direction: column;
+}
+
+.form-container {
+    background: #333;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    position: relative;
+    margin-top: 20px;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    color: #e60000;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.input-group {
+    margin-bottom: 1.5em;
+    position: relative;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5em;
+    color: #e60000;
+    transition: 0.3s;
+}
+
+input, select {
+    width: 100%;
+    padding: 0.5em;
+    border: none;
+    border-radius: 5px;
+    background: #444;
+    color: #fff;
+    transition: 0.3s;
+    z-index: 1; /* Assurez-vous que les champs sont au-dessus de l'effet lumineux */
+}
+
+input:focus, select:focus {
+    background: #555;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 0.75em;
+    border: none;
+    border-radius: 5px;
+    background: #e60000;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1em;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #cc0000;
+}
+
+/* Animation de l'effet lumineux */
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(230, 0, 0, 0.4);
+    }
+    70% {
+        box-shadow: 0 0 0 10px rgba(230, 0, 0, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(230, 0, 0, 0);
+    }
+}
+
+.form-container::after {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    border-radius: 15px;
+    box-shadow: 0 0 0 0 rgba(230, 0, 0, 0.4);
+    animation: pulse 2s infinite;
+    z-index: -1; /* Positionner derrière le formulaire */
+}
+/*CSS POUR HEADER*/
+header {
+    background-color: #000000;
+    padding: 20px 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    font-family: 'Arial', sans-serif;
+}
+
+ 
+header .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+ 
+header .logo {
+    font-size: 1.5em;
+    color: #f44336;
+    text-decoration: none;
+}
+ 
+header nav {
+    display: flex;
+}
+ 
+header .navbar {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+ 
+header .navbar li {
+    margin-left: 20px;
+}
+ 
+header .navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+}
+ 
+header .navbar a:hover {
+    background-color: #f44336;
+    border-radius: 5px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/*CSS POUR FOOTER*/
+
+footer {
+    background-color: #000000;
+    padding: 40px 20px;
+    color: #cccccc;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 30px;
+    width: 100%;
+}
+ 
+footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+ 
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+ 
+.footer-logo {
+    flex: 1;
+}
+ 
+.footer-links,
+.footer-social {
+    flex: 1;
+}
+ 
+.footer-links h3,
+.footer-social h3 {
+    margin-bottom: 15px;
+    color: #f44336;
+}
+ 
+.footer-links ul,
+.footer-social ul {
+    list-style: none;
+    padding: 0;
+}
+ 
+.footer-links ul li,
+.footer-social ul li {
+    margin-bottom: 10px;
+}
+ 
+.footer-links ul li a,
+.footer-social ul li a {
+    color: #cccccc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+ 
+.footer-links ul li a:hover,
+.footer-social ul li a:hover {
+    color: #f44336;
+}
+ 
+.footer-bottom {
+    text-align: center;
+    border-top: 1px solid #333;
+    padding-top: 20px;
+}
+ 
+.footer-bottom p {
+    margin: 0;
+}
