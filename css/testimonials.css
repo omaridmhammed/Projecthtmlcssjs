@@ -29,14 +29,14 @@ header .logo {
 }
 
 header .logo img {
-    height: 80px; /* Adjust the height of the logo as needed */
-    margin-right: 10px; /* Space between the logo image and the text */
+    height: 80px; 
+    margin-right: 10px; 
 }
 
 header .logo span {
     font-family: 'Lobster', cursive;
     font-size: 1.5em;
-    color: #ff0000; /* Dark Red color */
+    color: #ff0000; 
 }
 
 header nav {
@@ -66,14 +66,14 @@ header .navbar a {
 }
 
 header .navbar a:hover {
-    background-color: #ff0000; /* Dark Red color */
+    background-color: #ff0000; 
     color: #ffffff;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
 header .humanitarian-program {
     margin-left: 20px;
-    background-color: #26b601; /* Green color */
+    background-color: #26b601; 
     color: #ffffff;
     padding: 10px 20px;
     border-radius: 5px;
@@ -84,31 +84,20 @@ header .humanitarian-program {
 }
 
 header .humanitarian-program:hover {
-    background-color: #3e8e41; /* Darker green */
+    background-color: #3e8e41; 
 }
 
-.testimonials {
-    background-color: #1f1f1f;
-    padding: 50px 20px;
+h1.title {
     text-align: center;
-}
-
-.testimonials .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-
-.testimonials h2 {
-    font-size: 2.5em;
-    color: #f44336;
-    margin-bottom: 40px;
+    color: #ff0000;
+    margin-top: 50px;
 }
 
 .testimonial-items {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
+    margin-top: 50px;
 }
 
 .testimonial-item {
@@ -140,53 +129,58 @@ header .humanitarian-program:hover {
 }
 
 .testimonial-item h3 {
-    color: #f44336;
+    color: #ff0000;
     margin-top: 0;
 }
 
-.commentaire h3 {
-    padding-left: 50px;
-    color: hsl(4, 90%, 58%);
+.comment-section {
+    text-align: center;
+    margin: 50px 0;
 }
 
-.commentaire p {
-    padding-left: 50px;
+.comment-title {
+    color: #ff0000;
 }
 
-.commentaire section {
-    background-color: #121212;
-    padding-left: 50px;
+.comment-section p {
+    margin-bottom: 20px;
 }
 
-.commentaire input {
+.comment-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.comment-form input {
     width: 80%;
+    padding: 10px;
     background-color: #121212;
     color: white;
+    border: 1px solid #555;
+    border-radius: 5px;
     margin-bottom: 10px;
 }
 
-.commentaire button {
-    background-color: #f44336;
-    height: 30px;
-    width: 75px;
-    border-radius: 20px;
+.comment-form button {
+    background-color: #ff0000;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
-textarea {
-    background-color: #121212;
-    width: 500px;
-    color: white;
-    height: fit-content;
+.comment-form button:hover {
+    background-color: #cc0000;
 }
 
 footer {
-    background: url('../images/footerbackground.webp') no-repeat center center/cover; /* Use your background image here */
+    background: url('../images/footerbackground.webp') no-repeat center center/cover;
     padding: 40px 20px;
-    color: #cccccc;
+    color: #000000;
     text-align: center;
-    font-family: 'Roboto', sans-serif;
-    margin-top: 30px;
-    width: 100%;
 }
 
 footer .container {
@@ -212,7 +206,7 @@ footer .container {
 .footer-social h3 {
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 15px;
-    color: #ff0000; /* Green color */
+    color: #ff0000;
 }
 
 .footer-links ul,
@@ -236,7 +230,7 @@ footer .container {
 
 .footer-links ul li a:hover,
 .footer-social ul li a:hover {
-    color: #ff0000; /* Green color */
+    color: #ff0000;
 }
 
 .footer-bottom {

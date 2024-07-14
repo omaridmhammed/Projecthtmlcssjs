@@ -49,14 +49,14 @@ body {
 
 .image-item {
     flex: 0 0 auto;
-    width: 70%; /* Adjust the width as needed */
+    width: 70%; 
     scroll-snap-align: center;
     margin-right: 1rem;
     text-align: center;
 }
 
 .image-item img {
-    width: 100%; /* Ensure the image fits properly */
+    width: 100%; 
     height: auto;
     object-fit: cover;
     border-radius: 8px;
@@ -112,8 +112,8 @@ header .logo {
 }
 
 header .logo img {
-    height: 80px; /* Adjust the height of the logo as needed */
-    margin-right: 10px; /* Space between the logo image and the text */
+    height: 80px; 
+    margin-right: 10px; 
 }
 
 header .logo span {
@@ -149,14 +149,14 @@ header .navbar a {
 }
 
 header .navbar a:hover {
-    background-color: #ff0000; /* Dark Red color */
+    background-color: #ff0000; 
     color: #ffffff;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
 header .humanitarian-program {
     margin-left: 20px;
-    background-color: #26b601; /* Green color */
+    background-color: #26b601; 
     color: #ffffff;
     padding: 10px 20px;
     border-radius: 5px;
@@ -167,10 +167,10 @@ header .humanitarian-program {
 }
 
 header .humanitarian-program:hover {
-    background-color: #3e8e41; /* Darker green */
+    background-color: #3e8e41; 
 }
 
-/* CSS for FOOTER */
+
 footer {
     background: url('../images/footerbackground.webp') no-repeat center center/cover; /* Use your background image here */
     padding: 40px 20px;
@@ -204,7 +204,7 @@ footer .container {
 .footer-social h3 {
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 15px;
-    color: #ff0000; /* Green color */
+    color: #ff0000; 
 }
 
 .footer-links ul,
@@ -228,7 +228,7 @@ footer .container {
 
 .footer-links ul li a:hover,
 .footer-social ul li a:hover {
-    color: #ff0000; /* Green color */
+    color: #ff0000; 
 }
 
 .footer-bottom {
