@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@400;700&family=Montserrat:wght@400;700&family=Poppins:wght@400;700&display=swap');
 
 * {
     margin: 0;
@@ -7,9 +6,10 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Bona Nova SC", sans-serif;
+    line-height: 1.6;
     background-color: rgba(100, 88, 88, 0.192);
-    color: #ffffff;
+    color: #333;
 }
 
 .humanitarian-program {
@@ -27,7 +27,7 @@ body {
 .content p {
     font-size: 1.1rem;
     margin-bottom: 1.5rem;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Dancing script',cursive;
 }
 
 .container {
@@ -36,8 +36,8 @@ body {
     padding: 0 1rem;
 }
 
-.container p {
-    font-family: 'Bona Nova SC', serif;
+.container p{
+    font-family: "Bona Nova SC", serif;
     font-weight: 400;
 }
 
@@ -49,14 +49,14 @@ body {
 
 .image-item {
     flex: 0 0 auto;
-    width: 70%; 
+    width: 70%; /* Ajuster la largeur selon les besoins */
     scroll-snap-align: center;
     margin-right: 1rem;
     text-align: center;
 }
 
 .image-item img {
-    width: 100%; 
+    width: 100%; /* Pour s'assurer que l'image s'adapte correctement */
     height: auto;
     object-fit: cover;
     border-radius: 8px;
@@ -72,6 +72,9 @@ body {
 .formulaire {
     text-align: center;
     margin: 2rem 0;
+    background-color: #121212;
+    margin-top: 0px;
+    margin-bottom: -20px;
 }
 
 .formulaire a {
@@ -87,7 +90,8 @@ body {
     background-color: #555;
 }
 
-/* CSS for HEADER */
+/*Css pour la barre de navigation*/
+
 header {
     background-color: #000000;
     padding: 20px 0;
@@ -170,15 +174,17 @@ header .humanitarian-program:hover {
     background-color: #3e8e41; 
 }
 
+/*Css pour le footer*/
 
 footer {
-    background: url('../images/footerbackground.webp') no-repeat center center/cover; /* Use your background image here */
+    background: url('C:/Users/USER/Documents/Projetwebclientgit/Projecthtmlcssjs/images/footerbackground.webp') no-repeat center center/cover; /* Use your background image here */
     padding: 40px 20px;
     color: #cccccc;
     text-align: center;
     font-family: 'Roboto', sans-serif;
     margin-top: 30px;
     width: 100%;
+    background-color: #000000;
 }
 
 footer .container {
